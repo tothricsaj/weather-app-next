@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Icon, { IconTypeEnum } from "../components/Icon/Icon";
 
 export default function Home() {
