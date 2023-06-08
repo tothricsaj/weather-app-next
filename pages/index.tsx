@@ -1,5 +1,6 @@
 import Icon, { IconTypes } from "../components/Icon/Icon";
 import CityButton from "../components/City/CityButton/CityButton";
+import CityTile from "../components/City/CityTile/Citytile";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <Icon type={IconTypes.WEATHER} iconCode="11d" dimension={32} />
 
       <CityButton cityName="Tokyo" iconCode="11d" />
+      <CityTile cityName="Tokyo" iconCode="01d" celsius="18.8" />
     </>
 
   );
