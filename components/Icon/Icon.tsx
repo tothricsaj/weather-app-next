@@ -1,10 +1,10 @@
 import { useEffect, useState } from "react";
 
-export enum IconTypeEnum {
+export enum IconTypes {
   WEATHER = 'WEATHER',
   SEARCH = 'SEARCH'
 };
-export type IconType = IconTypeEnum.WEATHER | IconTypeEnum.SEARCH;
+export type IconType = IconTypes.WEATHER | IconTypes.SEARCH;
 export interface IconProps {
   type: IconType;
   iconCode?: string;
@@ -16,7 +16,7 @@ function Icon(props: IconProps) {
   const [iconURL, setIconURL] = useState(null);
 
   useEffect(() => {
-    type === IconTypeEnum.WEATHER
+    type === IconTypes.WEATHER
       ? setIconURL(`https://openweathermap.org/img/wn/${iconCode}@2x.png`)
       : setIconURL('/search.png')
   }, [type, iconCode]);
