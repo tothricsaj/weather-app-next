@@ -1,0 +1,14 @@
+.wrapper {
+  max-width: 280px;
+  max-height: 65px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1px solid var(--orange);
+  border-radius: 10px;
+}
+
+.wrapper span {
+  font-size: 48px;
+  color: var(--orange);
+}
