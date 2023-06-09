@@ -1,0 +1,18 @@
+.button {
+  min-width: 120px;
+  background-color: var(--orange);
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: white;
+  border: 1px solid var(--orange);
+  color: var(--orange);
+}
