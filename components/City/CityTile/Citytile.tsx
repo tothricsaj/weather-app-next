@@ -10,7 +10,7 @@ export default function CityTile(props: CityTileProps) {
   const { cityName, iconCode, celsius } = props;
 
   return (
-    <div className={classes.wrapper}>
+    <div className={classes.wrapper} data-cy="city-tile">
       <h2>{cityName}</h2>
       <Icon type={IconTypes.WEATHER} iconCode={iconCode} />
       <span>
