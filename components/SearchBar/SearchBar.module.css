@@ -5,9 +5,10 @@
 }
 
 .wrapper input {
-  min-width: 450px;
+  max-width: 450px;
   min-height: 50px;
-  border: 1px solid var(--orange);
+  margin-right: 15px;
+  border: 2px solid var(--cream);
   border-radius: 10px;
   font-size: 32px;
 }

@@ -1,5 +1,6 @@
 :root {
   --orange: #F97B22;
+  --cream: #FEE8B0;
 }
 
 html,
@@ -21,4 +22,10 @@ h1, h2, h3 {
 
 * {
   box-sizing: border-box;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }

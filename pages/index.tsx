@@ -3,13 +3,13 @@ import CityButton from "../components/City/CityButton/CityButton";
 import CityTile from "../components/City/CityTile/Citytile";
 import Button from "../components/Button/Button";
 import SearchBar from "../components/SearchBar/SearchBar";
+import NavBar from "../components/NavBar/NavBar";
 
 
 export default function Home() {
   return (
     <>
-      <h2>Home</h2>
-      <h3>Weather App Next</h3>
+      <NavBar />
 
       <Icon type={IconTypes.SEARCH} dimension={20} />
       <Icon type={IconTypes.WEATHER} iconCode="11d" dimension={32} />
