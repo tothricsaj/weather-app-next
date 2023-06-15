@@ -19,8 +19,11 @@ export async function getStaticProps(context) {
   const apiKey = 'ce8c93d77aad29dd1a0d877564835f66';
   const londonLat = '51.507218';
   const londonLon = '-0.127586';
+  const tokyoID = 1850147;
+  const berlinID = 2950158;
+  const budaPestID = 3054638;
 
-  const groupedCitiesURL = `https://api.openweathermap.org/data/2.5/group?id=524901,703448,2643743&appid=${apiKey}&units=metric`;
+  const groupedCitiesURL = `https://api.openweathermap.org/data/2.5/group?id=${tokyoID},${berlinID},${budaPestID}&appid=${apiKey}&units=metric`;
 
   const res = await fetch(groupedCitiesURL);
   const data = await res.json();

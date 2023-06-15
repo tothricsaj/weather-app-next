@@ -10,6 +10,7 @@
   border: 1px solid var(--orange);
   border-radius: 10px;
   color: var(--orange);
+  cursor: pointer;
 }
 
 .wrapper span {
